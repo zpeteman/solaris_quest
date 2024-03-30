@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/actiuity_jupiter"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/jupiter_background">
+
+    <TextView
+        android:id="@+id/Title"
+        android:layout_width="107dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:fontFamily="@font/font"
+        android:gravity="center"
+        android:text="JUPITER"
+        android:textColor="@color/jupiter_color"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/picture"
+        android:layout_width="269dp"
+        android:layout_height="269dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/jupiter" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/picture"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/font"
+        android:gravity="center"
+        android:text="The remaining time for a full orbit arround you my Quenne is : "
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/font"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:text="This is some text"  />
+
+    <TextView
+        android:id="@+id/paragraph"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tm"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/font"
+        android:gravity="center"
+        android:text="In the vast expanse of the cosmic kingdom, where Jupiter reigns as the mighty ruler of the heavens, there exists a majestic and benevolent presence that commands awe and reverence. Within this celestial realm, Rime, my beloved, you are the embodiment of regal grace and boundless generosity. Your presence, like the expansive embrace of Jupiter's atmosphere, fills my heart with warmth and wonder, drawing me closer with each orbit of your magnificent spirit. As you radiate with majestic splendor, your eyes shine with the luminous glow of Jupiter's moons, reflecting the wisdom and magnificence of the cosmos. In you, I find not just the magnanimity of celestial sovereignty, but the nurturing embrace of Jupiter itself, a planet of abundance and prosperity, guiding me on a journey of growth and enlightenment within the vast expanse of your infinite love and kindness."
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+</RelativeLayout>

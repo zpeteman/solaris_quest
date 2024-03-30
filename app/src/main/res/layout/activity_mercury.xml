@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/actiuity_mercury"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/marcury_background">
+
+    <TextView
+        android:id="@+id/Title"
+        android:layout_width="88dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="290dp"
+        android:fontFamily="@font/font"
+        android:gravity="center"
+        android:text="MERCURY"
+        android:textColor="@color/mercury_color"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/picture"
+        android:layout_width="269dp"
+        android:layout_height="269dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/mercury" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/picture"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/font"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:text="The remaining time for a full orbit arround you my Quenne is : "  />
+
+    <TextView
+        android:id="@+id/tm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/font"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:text="This is some text"  />
+
+    <TextView
+        android:id="@+id/paragraph"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tm"
+        android:fontFamily="@font/font"
+        android:gravity="center"
+        android:text="In the swiftness of the celestial dance, where Mercury zips across the sky with unmatched agility, there exists a dynamic and vibrant energy that electrifies the cosmos. Within this celestial hustle, Rime, my beloved, you are the embodiment of swift grace and sparkling charm. Your presence, like the fleeting passage of Mercury, leaves a trail of excitement and anticipation in its wake, drawing me closer with each exhilarating moment in your company. As you dart with effortless agility, your eyes twinkle with the brilliance of Mercury's light, reflecting the boundless energy of the cosmos. In you, I find not just the dynamism of celestial motion, but the vivacious spirit of Mercury itself, a planet of endless possibility and adventure, inspiring me to explore the universe with you by my side, forever chasing the thrill of the cosmic journey."
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+</RelativeLayout>

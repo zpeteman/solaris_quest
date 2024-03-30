@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/actiuity_saturn"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/saturn_background">
+
+    <TextView
+        android:id="@+id/Title"
+        android:layout_width="93dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="290dp"
+        android:fontFamily="@font/font"
+        android:gravity="center"
+        android:text="Saturn"
+        android:textColor="@color/saturn_color"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/picture"
+        android:layout_width="269dp"
+        android:layout_height="269dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/saturn" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/picture"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/font"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:text="The remaining time for a full orbit arround you my Quenne is : "  />
+
+    <TextView
+        android:id="@+id/tm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/font"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:text="This is some text"  />
+
+    <TextView
+        android:id="@+id/paragraph"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tm"
+        android:fontFamily="@font/font"
+        android:gravity="center"
+        android:text="In the grandeur of the cosmic tapestry, where Saturn spins its majestic rings, there exists a timeless elegance that captivates the soul. Within this celestial symphony, Rime, my beloved, you are the embodiment of celestial grace and beauty. Your presence, like the ringed wonder itself, encircles my world with a mesmerizing allure, drawing me ever closer with each graceful arc of your movement. As you glide with celestial poise, your eyes glisten like the jewels adorning Saturn's crown, reflecting the splendor of the cosmos. In you, I find not just the enchantment of the celestial dance, but the timeless allure of Saturn, a planet of mystery and wonder, guiding me on a journey of discovery and awe within the infinite expanse of your being."
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+</RelativeLayout>

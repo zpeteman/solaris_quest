@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="earth_color">#34A56F</color>
+    <color name="jupiter_color">#FFC549</color>
+    <color name="mars_color">#F5750A</color>
+    <color name="mercury_color">#808B96</color>
+    <color name="neptune_color">#0AA0F5</color>
+    <color name="saturn_color">#F3BB1A</color>
+    <color name="uranus_color">#1CEDBD</color>
+    <color name="venus_color">#CA7707</color>
+    <color name="button">#0DC1CA</color>
+</resources>

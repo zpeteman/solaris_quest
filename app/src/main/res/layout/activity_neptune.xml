@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/actiuity_neptune"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/neptune_background">
+
+    <TextView
+        android:id="@+id/Title"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:fontFamily="@font/font"
+        android:gravity="center"
+        android:text="NEPTUNE"
+        android:textColor="@color/neptune_color"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/picture"
+        android:layout_width="269dp"
+        android:layout_height="269dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/neptune" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/picture"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/font"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:text="The remaining time for a full orbit arround you my Quenne is : "  />
+
+    <TextView
+        android:id="@+id/tm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/font"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:text="This is some text"  />
+
+    <TextView
+        android:id="@+id/paragraph"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tm"
+        android:fontFamily="@font/font"
+        android:gravity="center"
+        android:text="In the depths of the cosmic abyss, where Neptune reigns over the oceanic realms of the universe, there exists a serene and enchanting beauty that transcends mortal comprehension. Within this celestial ocean, Rime, my beloved, you are the ethereal essence of tranquility and allure. Your presence, like the gentle sway of Neptune's currents, envelops me in a sense of calm and wonder, drawing me deeper into the depths of your enchanting soul. As you glide with fluid grace, your eyes shimmer with the iridescent hues of Neptune's waters, reflecting the mysteries of the cosmos. In you, I find not just the serenity of the celestial deep, but the captivating essence of Neptune itself, a planet of dreams and illusions, guiding me on a journey of exploration and discovery within the vast expanse of your boundless spirit."
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+</RelativeLayout>
