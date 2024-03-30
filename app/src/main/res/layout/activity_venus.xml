@@ -62,7 +62,7 @@
         android:layout_below="@id/tm"
         android:fontFamily="@font/font"
         android:gravity="center"
-        android:text="In the radiant embrace of the Sun, where Venus herself dances among the stars, there exists a shimmering beauty that rivals even the heavens. Within this celestial ballet, Rime, my beloved, you are the epitome of grace and allure. Your presence, like the gentle caress of sunlight upon dew-kissed petals, ignites the very essence of my being. As you move with ethereal elegance, your eyes reflect the cosmos, each glance a celestial alignment drawing me closer to your orbit. In you, I find not just the warmth of the Sun, but the celestial enchantment of Venus herself, a goddess incarnate in human form, illuminating my world with boundless radiance and love."
+        android:text="In the radiant embrace of the Sun, where Venus herself dances among the stars, there exists a shimmering beauty that rivals even the heavens. Within this celestial ballet, [my loved one], my beloved, you are the epitome of grace and allure. Your presence, like the gentle caress of sunlight upon dew-kissed petals, ignites the very essence of my being. As you move with ethereal elegance, your eyes reflect the cosmos, each glance a celestial alignment drawing me closer to your orbit. In you, I find not just the warmth of the Sun, but the celestial enchantment of Venus herself, a goddess incarnate in human form, illuminating my world with boundless radiance and love."
         android:textColor="@color/black"
         android:textSize="20sp" />
 
